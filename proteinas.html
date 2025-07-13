@@ -38,6 +38,7 @@
             box-shadow: 0 2px 8px rgba(87, 67, 56, 0.1);
             border-radius: 8px;
             overflow: hidden;
+            border: 1px solid #e9ecef;
         }
         
         th {
@@ -47,7 +48,12 @@
             padding: 16px 12px;
             text-align: left;
             border-bottom: 2px solid #e9ecef;
+            border-right: 1px solid #e9ecef;
             color: #574338;
+        }
+        
+        th:last-child {
+            border-right: none;
         }
         
         td {
@@ -55,7 +61,12 @@
             font-size: 16px;
             padding: 14px 12px;
             border-bottom: 1px solid #e9ecef;
+            border-right: 1px solid #e9ecef;
             color: #574338;
+        }
+        
+        td:last-child {
+            border-right: none;
         }
         
         tr:hover {
